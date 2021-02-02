@@ -1,3 +1,37 @@
 body {
     background-color: black;
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.topo{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+button{
+    font-size: 20px;
+    border-width: 5px;
+    border-color: cornsilk;
+    color: white;
+    background-color: #151515;
+    padding: 8px;
+}
+
+.container{
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    margin: 70px auto;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.container img{
+    width: 150px;
+    margin: 0 10px;
 }
