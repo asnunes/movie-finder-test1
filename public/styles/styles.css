@@ -22,16 +22,16 @@ button{
     padding: 8px;
 }
 
-.container{
-    width: 800px;
+.pagecontainer{
+    width: 900px;
     height: 600px;
-    background-color: white;
     margin: 70px auto;
     flex-wrap: wrap;
     display: flex;
 }
 
-.container img{
+.pagecontainer img{
     width: 150px;
-    margin: 0 10px;
+    margin: 10px;
+    cursor: pointer;
 }

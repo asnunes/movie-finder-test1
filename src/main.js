@@ -7,3 +7,4 @@ var botão4 = document.getElementById("botão4");
 
 botão1.addEventListener('click', loadPopular);
 
+loadPopular();
