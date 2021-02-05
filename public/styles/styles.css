@@ -35,3 +35,42 @@ button{
     margin: 10px;
     cursor: pointer;
 }
+
+.movieselect{
+    width: 800px;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #151515;
+}
+
+.movieselect .image{
+    width: 300px;
+    flex-grow: 0;
+}
+
+.movieselect .sinopse{
+    flex-grow: 1;
+    text-align: left;
+}
+
+.movieselect header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.movieselect h1 {
+    color: yellow;
+    font-size: 25px;
+}
+
+h1{
+    color: yellow;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+p{
+    color: white;
+}

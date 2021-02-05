@@ -13,14 +13,16 @@ function popularesResponse(response){
     var container = document.querySelector(".pagecontainer");
     container.innerHTML = "";
 
-    for (var i = 0; i < results.length; i++){
+    results.forEach(filme => {
         var element = document.createElement("img");
 
-        var image = `https://image.tmdb.org/t/p/w200/${results[i].poster_path}`;
+        var image = `https://image.tmdb.org/t/p/w200/${filme.poster_path}`;
         element.setAttribute("src", image);
 
-        element.addEventListener('click', movieSelect);
+        element.addEventListener('click', ()=> {
+            movieSelect(filme)
+        });
 
         container.appendChild(element);
-    }
+    });
 }

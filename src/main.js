@@ -1,10 +1,16 @@
 import loadPopular from './popular';
+import selectNowPlaying from './now_playing';
+import selectTopRated from './top_rated';
+import selectUpcoming from './upcoming';
 
-var botão1 = document.getElementById("botão1");
-var botão2 = document.getElementById("botão2");
-var botão3 = document.getElementById("botão3");
-var botão4 = document.getElementById("botão4");
+var popular = document.getElementById("popular");
+var nowplaying = document.getElementById("nowplaying");
+var toprated = document.getElementById("toprated");
+var upcoming = document.getElementById("upcoming");
 
-botão1.addEventListener('click', loadPopular);
+popular.addEventListener('click', loadPopular);
+nowplaying.addEventListener('click', selectNowPlaying);
+toprated.addEventListener('click', selectTopRated);
+upcoming.addEventListener('click', selectUpcoming);
 
 loadPopular();
