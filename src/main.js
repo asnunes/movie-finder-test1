@@ -13,4 +13,5 @@ nowplaying.addEventListener('click', selectNowPlaying);
 toprated.addEventListener('click', selectTopRated);
 upcoming.addEventListener('click', selectUpcoming);
 
+
 loadPopular();
