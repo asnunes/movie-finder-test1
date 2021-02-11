@@ -7,7 +7,7 @@ export default function selectUpcoming () {
 }
 
 function Response(response){
-    //console.log(response.data);
+    
     var { results } = response.data;
 
     var container = document.querySelector(".pagecontainer");
