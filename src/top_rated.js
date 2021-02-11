@@ -8,7 +8,7 @@ export default function selectTopRated () {
 }
 
 function Response(response){
-    //console.log(response.data);
+    
     var { results } = response.data;
 
     var container = document.querySelector(".pagecontainer");
